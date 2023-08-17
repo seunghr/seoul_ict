@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+span,label{
+    display: block;
+}
+.hd_top{
+    display: flex;
+    width: auto;
+    height: 150px;
+    background-color: rgb(232, 249, 255);
+}
+.hd{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 200px;
+}
+.hd > img{
+    width: 100%;
+    height: 50px;
+}
+.title{
+    width: 1000px;
+    margin-left: 100px;
+}
+.title > ul{
+    margin-top: 50px;
+    display: flex;
+    width: 900px;
+    height: 50px;
+}
+.title > ul > li{
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.title > ul > li:hover{
+    color: red;
+}
+.back{
+    width: auto;
+    background-color: rgb(232, 249, 255);
+}
+.banner{
+    width: auto;
+    height: 500px;
+}
+.banner > img{
+    width: 100%;
+}
+.serch{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 0px rgb(180, 180, 180);
+}
+.serch > input{
+    width: 700px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+    margin-left: 100px;
+}
+.button{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(255, 43, 43);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.button:hover{
+    background-color: rgb(185, 0, 0);
+}
+.serch_box{
+    width: 1000px;
+    height: 60px;
+    margin: 30px auto;
+}
+.serch_box > ul{
+    margin: auto;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.serch_box > ul > li{
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 50px;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+.st01{
+    width: 1500px;
+    margin-top: 200px;
+}
+.st01 > div{
+    font-family: 'KOTRAHOPE';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.st01 > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+}
+.st01 > ul > li{
+    width: 200px;
+}
+.st01 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.st02{
+    width: 1500px;
+    margin-top: 100px;
+}
+.st02 > div{
+    font-family: 'KOTRAHOPE';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.st02 > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+}
+.st02 > ul > li{
+    width: 200px;
+}
+.st02 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/* .st03{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-color: bisque;
+} */
+.st04{
+    width: 1500px;
+    margin-top: 100px;
+}
+.st04 > div{
+    font-family: 'KOTRAHOPE';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.st04 > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+}
+.st04 > ul > li{
+    font-family: 'KOTRAHOPE';
+    border-radius: 40px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    padding-top: 80px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.st04 > ul > li > span{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    margin: 50px auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 50px;
+}
+.ft{
+    width: auto;
+    height: 400px;
+    background-color: #2a2a2a;
+}
+.ft_top{
+    width: 1000px;
+    padding: 50px;
+}
+.ft_top > div{
+    padding: 10px;
+    color: #c8c8c8;
+}
+.ft_bottom{
+    text-align: bottom;
+}
+.ft > div{
+    padding: 50px;
+    color: #c8c8c8;
+    font-size: 12px;
+}

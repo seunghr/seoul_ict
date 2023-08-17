@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background-color: aliceblue;
+}
+
+h1{
+  text-align: center;
+  color: rgb(1, 31, 102);
+}
+
+form{
+  width: 500px;
+  height: 500px;
+  border: 4px dotted rgb(9, 9, 100);
+  margin: 30px auto;
+  padding: 100px;
+}
+
+input{
+  border: none;
+}
+
+.text{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.submit{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(93, 93, 231);
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: rgb(52, 52, 180);
+}
+
+ul{
+  width: 500px;
+  margin-left: -40px;
+}
+
+li{
+  list-style: none;
+  border-bottom: 1px solid black;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  cursor: pointer;
+}
+
+.done{
+  text-decoration: line-through;
+}

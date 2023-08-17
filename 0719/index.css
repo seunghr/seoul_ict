@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.hd{
+    width: auto;
+    height: 150px;
+    border: 1px solid red;
+}
+.back{
+    margin-top: 20px;
+    width: auto;
+    height: 1522px;
+    border: 1px solid red;
+}
+.banner{
+    width: auto;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.st01{
+    width: auto;
+    height: 200px;
+    background-color: aliceblue;
+}
+.st02{
+    width: auto;
+    height: 200px;
+    background-color: silver;
+}
+.st03{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-color: bisque;
+}
+.st04{
+    width: auto;
+    height: 200px;
+    background-color: rgb(255, 246, 228);
+}
+.ft{
+    margin-top: 20px;
+    width: auto;
+    height: 300px;
+    border: 1px solid red;
+}
